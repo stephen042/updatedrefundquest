@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
     $subject = "Claim Submission";
     $body = "
         <table>
-            <p>Your refund request has been successfully received. Our team is currently processing it, and we’ll notify you via email if any additional information is required. Thank you for your patience.</p>
+            <p>Your refund request has been successfully received. Our team is currently processing it, and we'll notify you via email if any additional information is required. Thank you for your patience.</p>
         </table>";
     $send = sendMail($email, $subject, $body);
 
@@ -62,7 +62,7 @@ if (isset($_POST['submit'])) {
             <table>
                 <h2>New Claim Submitted</h2>
                 <p><strong>Amount Lost:</strong> $amount</p>
-                <p><strong>Payment Method:</strong> $payment_method</p>
+                <p><strong>How was the money lost?:</strong> $payment_method</p>
                 <p><strong>Name:</strong> $name</p>
                 <p><strong>Phone Number:</strong> $phone</p>
                 <p><strong>Email:</strong> $email</p>
