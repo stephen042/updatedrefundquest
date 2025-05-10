@@ -1,0 +1,71 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-wrs-testimonial {
+  color: #333130;
+}
+.wp-block-wrs-testimonial .reviewer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 15px;
+}
+.wp-block-wrs-testimonial .reviewer .initials {
+  border-radius: 50%;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.wp-block-wrs-testimonial .reviewer .name {
+  font-weight: bold;
+}
+.wp-block-wrs-testimonial .testimonial_container {
+  box-sizing: border-box;
+  border-top: 1px solid #a6a6a6;
+  border-bottom: 1px solid #a6a6a6;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: calc(100% - 65px);
+}
+.wp-block-wrs-testimonial .testimonial_container .review_header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.wp-block-wrs-testimonial .testimonial_container .review_header .rating img {
+  width: 120px;
+}
+.wp-block-wrs-testimonial .testimonial_container .review_header .review_date {
+  color: #6b6c6c;
+  font-size: 12px;
+}
+.wp-block-wrs-testimonial .testimonial_container .title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.wp-block-wrs-testimonial .testimonial_container .review_body {
+  margin-bottom: 10px;
+}
+.wp-block-wrs-testimonial .testimonial_container .experience {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  gap: 10px;
+  font-size: 12px;
+}
+.wp-block-wrs-testimonial .testimonial_container .experience .experience_title {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

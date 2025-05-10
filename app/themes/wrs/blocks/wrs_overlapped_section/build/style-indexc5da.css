@@ -1,0 +1,80 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-wrs-overlapped-section {
+  position: relative;
+  padding: 40px 0;
+  height: auto;
+  color: #333130;
+}
+.wp-block-wrs-overlapped-section .bg_block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 55%;
+  background-color: #fff3f2;
+}
+@media (max-width: 800px) {
+  .wp-block-wrs-overlapped-section .bg_block {
+    display: none;
+  }
+}
+.wp-block-wrs-overlapped-section .section_content_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0;
+  align-items: stretch;
+}
+@media (max-width: 800px) {
+  .wp-block-wrs-overlapped-section .section_content_container {
+    background-color: #fff3f2;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.wp-block-wrs-overlapped-section .section_content_container .img_container {
+  position: relative;
+  display: block;
+  width: 50%;
+  background-size: cover;
+}
+@media (max-width: 800px) {
+  .wp-block-wrs-overlapped-section .section_content_container .img_container {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+}
+.wp-block-wrs-overlapped-section .section_content_container .section_content {
+  position: relative;
+  width: calc(50% - 80px);
+  padding: 40px;
+}
+@media (max-width: 800px) {
+  .wp-block-wrs-overlapped-section .section_content_container .section_content {
+    width: auto;
+  }
+}
+
+.wp-block-wrs-overlapped-section.reversed .bg_block {
+  left: 0;
+  right: auto;
+}
+.wp-block-wrs-overlapped-section.reversed .section_content_container {
+  flex-direction: row-reverse;
+}
+@media (max-width: 800px) {
+  .wp-block-wrs-overlapped-section.reversed .section_content_container {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

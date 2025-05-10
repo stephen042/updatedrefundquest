@@ -1,0 +1,65 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.wp-block-wrs-block-carousel .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.wp-block-wrs-block-carousel .container .slider_btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.wp-block-wrs-block-carousel .container .slider_btn img {
+  height: 30px;
+}
+.wp-block-wrs-block-carousel .container .stage {
+  flex-grow: 1;
+  height: 100%;
+  overflow-x: hidden;
+}
+.wp-block-wrs-block-carousel .container .stage .slider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+.wp-block-wrs-block-carousel .container .stage .slider .wp-block-query {
+  width: auto !important;
+}
+.wp-block-wrs-block-carousel .container .stage .slider .wp-block-query .columns-1 {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0 !important;
+}
+.wp-block-wrs-block-carousel .container .stage .slider > * {
+  flex-shrink: 0;
+  display: block !important;
+  box-sizing: border-box;
+}
+.wp-block-wrs-block-carousel .paging {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 10px;
+}
+.wp-block-wrs-block-carousel .paging .paging_btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+.wp-block-wrs-block-carousel .paging .paging_btn.active {
+  background-color: #0f4caa;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
