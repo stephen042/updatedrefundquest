@@ -22,11 +22,10 @@ function sendMail($email, $subject, $message)
     $mail->Port = 465; // Typically 465 for SSL
     $mail->SMTPSecure = "ssl"; // Use 'tls' for 587
 
-    // Email Settings
-    $mail->isHTML(true);
-    $mail->setFrom("support@recoveryquest.online", "Wealth Recovery Solicitors"); // Sender details
+    // Email Settings    $mail->isHTML(true);
+    $mail->setFrom("support@recoveryquest.online", "Recovery Solicitors"); // Sender details
     $mail->addAddress($email); // Recipient email
-    $mail->AddReplyTo("support@recoveryquest.online", "Wealth Recovery Solicitors"); // Reply-to email
+    $mail->AddReplyTo("support@recoveryquest.online", "Recovery Solicitors"); // Reply-to email
     $mail->Subject = $subject;
     $mail->MsgHTML($message);
 
@@ -46,7 +45,7 @@ if (isset($_POST['submit'])) {
     $phone = $_POST['phone'];
     $email = $_POST['email'];
     $heard_of_us = $_POST['heard_of_us'];
-    
+
     // User email details
     $subject = "Claim Submission";
     $body = '
@@ -63,7 +62,7 @@ if (isset($_POST['submit'])) {
                             <td>
                                 <h2 style="color: #333333;">Refund Request Received</h2>
                                 <p style="color: #555555; font-size: 15px; line-height: 1.6;">
-                                    Dear Customer,<br><br>
+                                    ' . $name . ',<br><br>
                                     Your refund request has been successfully received. Our team is currently reviewing the details.
                                     You will be notified via email if any further information is required.<br><br>
                                     Thank you for your patience.<br><br>
